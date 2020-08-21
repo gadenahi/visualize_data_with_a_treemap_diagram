@@ -1,0 +1,27 @@
+<html>
+  <head>
+    <title>Visualize Data with a Treemap Diagram</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="index.css">    
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+    <script src="https://d3js.org/d3-interpolate.v1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <div class="main">
+      <h1>Visualize Data with a Treemap Diagram</h1>
+      <form id='data-selector'>
+          <input type="radio" name="dataradio" checked value='videos'>Video Game Data Set
+          <input type="radio" name="dataradio" value='movies'>Movies Data Set
+          <input type="radio" name="dataradio" value='kickstarters'>Kickstarter Data Set
+      </form>
+      <div id="title"></div>
+      <div id="description"></div>
+      <div id='treemap'></div>  
+      <div class="legends"></div>
+      <div class="js_toolTip"></div>
+    </div>
+  </body>
+</html>

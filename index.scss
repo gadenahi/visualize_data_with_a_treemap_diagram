@@ -1,0 +1,52 @@
+  .main {
+      margin-left: auto;
+      margin-right: auto;
+      h1 {
+        text-align: center;     
+      }
+  }
+
+  #data-selector {
+    text-align: center
+  }
+  
+  #title {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+  }
+  
+  #description {
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+  }
+  #treemap {
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+  }
+  a {
+    text-decoration: none;
+  }
+  
+  .legends {
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+  }
+  
+  .js_toolTip {
+      display: none;
+      width: 15em;
+      position: absolute;
+      background-color: gray;
+      color: #fff;
+      font-size: 12px;
+      text-align: center;
+    }
+  
+  
+  
